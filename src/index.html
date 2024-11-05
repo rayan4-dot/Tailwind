@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder Card</title>
+    <link href="output.css" rel="stylesheet"> <!-- Link to your Tailwind CSS output file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="tbg mx-auto my-0 mt-3 bg-white border border-gray-400 rounded-lg shadow-lg w-80">
+  
+        <!-- Header Section -->
+        <div class="theader flex justify-between bg-gray-200 border-b border-gray-400 py-2">
+            <div class="flex items-center text-gray-500 text-center px-5">
+                <i class="fas fa-cog"></i>
+            </div>
+            
+            <div class="flex items-center text-center">
+                <div class="tlogo w-full relative mx-0 my-auto p-2">
+                    <img class="w-10 mx-auto" src="https://worldvectorlogo.com/logos/tinder-1.svg" alt="Tinder Logo" title="Tinder Logo" />
+                </div>
+            </div>
+            
+            <div class="flex items-center text-gray-500 text-center px-5">
+                <i class="fas fa-comments"></i>
+            </div>
+        </div>
+      
+        <!-- Main Card Content -->
+        <div class="p-3 flex flex-col items-center">
+            <div class="tphoto rounded-lg border border-gray-400 shadow-lg overflow-hidden">
+                
+                <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                     class="w-full"
+                     title="tphoto"
+                     alt="Tinder Photo"
+                />
+                
+                <div class="flex justify-between w-full">
+                    <div class="tname text-xl font-bold float-left p-4">Jane Doe, <span class="font-light">27</span></div>
+                    
+                    <div class="tinfo text-lg float-right text-gray-500 p-4">
+                        <i class="fas fa-book pr-2"></i> 0
+                        <i class="fas fa-users pl-4"></i> 0
+                    </div>
+                </div>
+                
+                <div class="pl-4 pb-4 text-gray-400 text-sm">
+                    <span>3 km away</span>
+                </div>
+                
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="flex items-center justify-center w-full h-full pt-12 space-x-8">
+                <div class="bg-white rounded-full text-red-500 text-6xl p-4 shadow-lg">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="bg-white rounded-full text-blue-500 text-4xl p-3 shadow-lg">
+                    <i class="fas fa-info"></i>
+                </div>
+                <div class="bg-white rounded-full text-green-500 text-6xl p-4 shadow-lg">
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
